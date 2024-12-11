@@ -1,6 +1,6 @@
 import { DietaRequest, DietaResponse } from '../types';
 
-const API_URL = 'https://generadordietasia.onrender.com';
+const API_URL = 'https://nutria.onrender.com';
 
 export const generateDiet = async (data: DietaRequest): Promise<DietaResponse> => {
   const response = await fetch(`${API_URL}/api/generar_dieta`, {
